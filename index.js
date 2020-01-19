@@ -52,7 +52,8 @@ function favicon (path, options) {
   var maxAge = calcMaxAge(opts.maxAge)
 
   if (!path) {
-    throw new TypeError('path to favicon.ico is required')
+    path = require("path").join(__dirname,'favicon.ico');
+    //throw new TypeError('path to favicon.ico is required')
   }
 
   if (Buffer.isBuffer(path)) {
