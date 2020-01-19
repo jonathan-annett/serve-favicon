@@ -33,7 +33,8 @@
   "files": [
     "LICENSE",
     "HISTORY.md",
-    "index.js"
+    "index.js",
+    "favicon.ico"
   ],
   "engines": {
     "node": ">= 0.8.0"
